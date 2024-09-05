@@ -1,0 +1,17 @@
+#Day 2: 30 Days of python programming
+  first_name = 'Liyema'
+  last_name = 'Mkebe'
+  full_name = 'Liyema Mkebe'
+  country = 'South Africa'
+  city = 'Centurion'
+  age = 20
+  year = 2024
+  is_married = False
+  is_true = 'I was born in Johannesburg!' 
+  is_light_on = False 
+  personal_info = { 'firstname': 'Liyema',
+                   'lastname': 'Mkebe',
+                   'country' : 'South Africa',
+                   'city': 'Centurion'
+                  }
+                   
