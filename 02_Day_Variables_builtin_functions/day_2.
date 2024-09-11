@@ -23,3 +23,15 @@ print('Age:', age)
 print('Current year', year)
 print('City of oringin:', is_true)
 print('Current residence:', city)
+
+# Checking data types and casting / Printing out types
+print(type('Liyema'))      #str
+print(type(first_name))    #str
+print(type(last_name))     #str
+print(type(age))           #int
+print(type(year))          #int
+print(type(is_married))    #boolean
+print(type(False))         #boolean
+
+#
+print(len(first_name))     
