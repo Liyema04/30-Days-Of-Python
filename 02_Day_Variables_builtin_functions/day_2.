@@ -33,5 +33,11 @@ print(type(year))          #int
 print(type(is_married))    #boolean
 print(type(False))         #boolean
 
-#
-print(len(first_name))     
+# Exercise Level 2
+print(len(first_name))  
+
+def compare_length(full_name):
+    if len(first_name) >= len(last_name) 
+        return True
+    return False 
+print(compare_length)
