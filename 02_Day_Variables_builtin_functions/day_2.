@@ -41,3 +41,13 @@ def compare_length(full_name):
         return True
     return False 
 print(compare_length)
+print(type(compare_length)
+
+num_one = 5
+num_two = 4
+total = num_one + num_two
+print(total)
+print(type(total))
+
+
+
