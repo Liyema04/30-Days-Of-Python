@@ -48,6 +48,3 @@ num_two = 4
 total = num_one + num_two
 print(total)
 print(type(total))
-
-
-
