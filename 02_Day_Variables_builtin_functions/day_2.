@@ -43,8 +43,26 @@ def compare_length(full_name):
 print(compare_length)
 print(type(compare_length)
 
+# Declaring Numbers
 num_one = 5
 num_two = 4
+
+# Addition 
 total = num_one + num_two
 print(total)
 print(type(total))
+
+# Substraction 
+diff = num_one - num_two
+print(diff)
+print(type(diff))
+
+# Multiply 
+product = num_two * num_one
+print(product)
+print(type(product))
+
+# Divide
+division = num_one / num_two
+print(division)
+print(type(product))
