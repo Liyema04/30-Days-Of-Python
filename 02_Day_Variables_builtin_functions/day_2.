@@ -91,3 +91,14 @@ print(type(area_of_circle))
 circum_of_circle = 2 * pi * 30 
 print("Circumference of circle: ", circum_of_circle)
 print(type(circum_of_circle))
+
+# user RADIUS input FOR area OF circle
+# main function for calulating area 
+def area(r):
+    pi=3.142;
+    return pi*r*r
+
+# Driver code 
+user_radius = int(input())
+circle_area = area(user_radius)
+Print("Area of circle with radius : ", user_radius, "is", ciricle_area)
