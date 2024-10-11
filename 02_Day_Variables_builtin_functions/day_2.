@@ -101,4 +101,4 @@ def area(r):
 # Driver code 
 user_radius = int(input())
 circle_area = area(user_radius)
-Print("Area of circle with radius : ", user_radius, "is", ciricle_area)
+Print("Area of circle with radius ", user_radius, "is", ciricle_area)
