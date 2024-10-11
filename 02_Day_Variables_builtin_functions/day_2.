@@ -65,4 +65,29 @@ print(type(product))
 # Divide
 division = num_one / num_two
 print(division)
-print(type(product))
+print(type(division))
+
+# Modulus division 
+modulo = num_two % num_one
+print("Modulus division: ",modulo)
+print(type(modulo))
+
+# Exponents 
+exp = num_one**num_two
+print("Exponential form: ", exp)
+print(type(exp))
+
+# Floor-Division
+floor_division = num_one // num_two
+print("Floor division: ", floor_division)
+print(type(floor_division))
+
+# Geometry Calc : Area & Circumference of CIRCLE(radius = 30m)
+pi = 3.142 #float
+area_of_circle = pi * 30**2
+print("Area of circle: ", area_of_circle)
+print(type(area_of_circle))
+
+circum_of_circle = 2 * pi * 30 
+print("Circumference of circle: ", circum_of_circle)
+print(type(circum_of_circle))
