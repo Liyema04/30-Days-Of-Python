@@ -102,3 +102,7 @@ def area(r):
 user_radius = int(input())
 circle_area = area(user_radius)
 Print("Area of circle with radius ", user_radius, "is", ciricle_area)
+# User Input Test
+# User Input Test
+full_name, last_name, country, city, age, year = input("Fill out your details here : ").split()
+print("My name is, ", full_name, last_name, ". I am from", country, " and live in", city, ". I am", age, "years old. ")
