@@ -27,8 +27,40 @@ side_c = int(input())
 perimetter_of_triangle = side_a + side_b + side_c
 print(perimetter_of_triangle)
 
-# Calculate the Area of Rectangle (user-input)
+# Calculate the Area and Perimeter of Rectangle (user-input)
+print("Enter lenght & width of triangle: ")
 length = int(input())
 width = int(input())
 area_of_rect = length*width
-print(area_of_rect)
+perimeter_of_rect = 2*(length + width)
+print("Area of Triangle: ", area_of_rect)
+print("Perimeter of Triangle: ", perimeter_of_rect)
+
+# Calculate the radius of Circle (user-input)
+print("Enter radius of circle for [Area & Circumference]: ")
+user_radius = int(input())
+
+#Calculate Area and Circumfrence of Cirlce
+def area(r):
+    pi=3.14
+    return pi*r*r
+
+circle_area = area(user_radius)
+print("Area of Circle: ", circle_area)
+
+def circumference(r):
+    pi=3.14
+    return 2*pi*r
+
+circle_circumference = circumference(user_radius)
+print("Circumference of Circle: ", circle_circumference)
+
+# Calculate the slope, of x-intercept & y-intercept where (y = 2x - 2) [equation : y = mx + c] 
+
+# Slope - (Q'8)
+def getSlope(x1, y1, x2, y2):
+    slope = (y2-y1)/(x2-x1)
+    return slope
+
+slope = getSlope(1, 0, 0, -2)
+print(slope)
