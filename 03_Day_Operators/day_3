@@ -1,4 +1,5 @@
 #Day 3: Operators (30 Days of python programming)
+from re import X
 from tkinter import SEPARATOR
 from cmd import PROMPT
 
@@ -12,29 +13,31 @@ height = 167.4
 # imaginary - Optional. A number representing the imaginary part of the complex number. Default 0.
 
 comp_num1 = complex(20, 16)
-print(comp_num1)
+print("Complex number: ", comp_num1)
 
 #Calculate Area of Triangle (user-input)
-base = float(input())
-height = float(input())
+print("Enter base & height of Triangle: ") # Provide statements & questions before user-input!
+base = int(input())
+height = int(input())
 area_of_triangle = 0.5*base*height
-print(area_of_triangle)
-
+print("Area of Triangle: ", area_of_triangle)
+ 
 #Calculate the Perimeter of Triangle (user-input)
+print("Enter Side, Base & Side of triangle: ")
 side_a = int(input())
 side_b = int(input())
 side_c = int(input())
 perimetter_of_triangle = side_a + side_b + side_c
-print(perimetter_of_triangle)
+print("Perimeter of Triangle: ", perimetter_of_triangle)
 
 # Calculate the Area and Perimeter of Rectangle (user-input)
-print("Enter lenght & width of triangle: ")
+print("Enter lenght & width rectangle: ") #fixed
 length = int(input())
 width = int(input())
 area_of_rect = length*width
 perimeter_of_rect = 2*(length + width)
-print("Area of Triangle: ", area_of_rect)
-print("Perimeter of Triangle: ", perimeter_of_rect)
+print("Area of rectangle: ", area_of_rect) #fixed
+print("Perimeter of rectangle: ", perimeter_of_rect) #fixed
 
 # Calculate the radius of Circle (user-input)
 print("Enter radius of circle for [Area & Circumference]: ")
